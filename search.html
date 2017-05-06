@@ -5,8 +5,8 @@
   
     
   <script type="text/javascript">
-    function search(){
-      window.location.replace(searchBar.value); 
+    function search(value){
+      window.location.replace(value); 
     }
     </script>
   </head>
@@ -14,7 +14,7 @@
   <body>
   <form action="" method="post">
     <input type="text" id="searchBar" placeholder="" value="Search..." />
-    <button onClick="search();">Search</button>
+    <button onClick="search(searchBar.value);">Search</button>
     </form>
   </body>
  </HTML>
