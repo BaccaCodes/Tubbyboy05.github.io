@@ -5,12 +5,14 @@
   
     
   <script type="text/javascript">
-    
+    function search(){
+      window.location = searchBar.value;    
+    }
     </script>
   </head>
   
   <body>
-  <form action="search.php" method="post">
+  <form action="search();" method="post">
     <input type="text" id="searchBar" placeholder="" value="Search..." />
     <input type="submit" id="searchBtn" value="Go!" />
     </form>
