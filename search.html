@@ -6,7 +6,9 @@
     
   <script type="text/javascript">
     function search(){
-      window.location.href = searchBox.value;
+      if(searchBox.value.contains("Youtube")){
+          Output.value = "Youtube.com";
+         }
     }
     </script>
   </head>
@@ -17,5 +19,7 @@
 <input type="text" id="searchBox">
       <button onclick="search();">Search</button>
 </form>
+    
+    <p id="Output"></p>
   </body>
  </HTML>
