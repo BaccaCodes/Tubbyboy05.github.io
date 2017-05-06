@@ -1,0 +1,20 @@
+<!DOCTYPE Html>
+<HTML>
+  <div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://tubbyboy05.github.io/tubsearch">
+        <input type="text" class="tftextinput" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+<div class="tfclear"></div>
+</div>
+
+<script>
+    var a = document.getElementById('tfnewsearch');
+    a.addEventListener('submit',function(e) {
+        e.preventDefault();
+        var b = document.getElementById('tftextinput').value;
+        window.location.href = 'http://tubbyboy05.github.io/tubsearch'+b;
+    });
+</script>
+  
+  
+ </HTML>
