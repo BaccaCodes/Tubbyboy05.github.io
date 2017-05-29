@@ -1,5 +1,5 @@
 # Welcome
-###Eligance in design
+### Eligance in design
 
 ## Projects
 <a href="https://www.tubbyboy05.github.io/plex">* Plex
