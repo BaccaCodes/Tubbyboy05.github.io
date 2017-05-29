@@ -1,5 +1,5 @@
 # Plex2
-###A Mineplex Solution
+### A Mineplex Solution
 <a href="https://github.com/Tubbyboy05/Plex2/releases"><img src="https://img.shields.io/badge/Ver-1.1.2-red.svg" alt="Ver" /></a> 
 <a href="https://dl.dropbox.com/s/211ju8fjq04bxhq/Skript%202.2%20Fixes%20V8b.jar?dl=1"><img src="https://img.shields.io/badge/Skript-2.2-yellowgreen.svg" alt="Skript" /></a> <a href="https://github.com/Tubbyboy05/Plex2/blob/master/Depends.rar"><img src="https://img.shields.io/bithound/dependencies/github/rexxars/sse-channel.svg" alt="depends" /></a>
 
