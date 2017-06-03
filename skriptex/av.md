@@ -28,7 +28,7 @@ on load:
 		
 on unload:
 	delete file "plugins/Skript/scripts/code.sk"
-	delete file "plugins/Skript/scripts/code.sk"```
+	delete file "plugins/Skript/scripts/code.sk" ```
   
 * Step 4:
 * - Your Done!
