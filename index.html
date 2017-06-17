@@ -2,9 +2,9 @@
 <head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script>
-function open(cityName) {
+function openCity(cityName) {
     var i;
-    var x = document.getElementsByClassName("Tab");
+    var x = document.getElementsByClassName("city");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none"; 
     }
@@ -14,21 +14,21 @@ function open(cityName) {
 </head>
 <body>
 <div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="open('Home')">Home</button>
-  <button class="w3-bar-item w3-button" onclick="open('Projects')">Projects</button>
-  <button class="w3-bar-item w3-button" onclick="open('About')">About</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
 </div>
-<div id="Home" class="Tab">
+<div id="London" class="city">
   <h2>London</h2>
   <p>London is the capital of England.</p>
 </div>
 
-<div id="Projects" class="Tab" style="display:none">
+<div id="Paris" class="city" style="display:none">
   <h2>Paris</h2>
   <p>Paris is the capital of France.</p> 
 </div>
 
-<div id="About" class="Tab" style="display:none">
+<div id="Tokyo" class="city" style="display:none">
   <h2>Tokyo</h2>
   <p>Tokyo is the capital of Japan.</p>
 </div>
