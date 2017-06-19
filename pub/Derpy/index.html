@@ -1,10 +1,39 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    document.getElementById(cityName).style.display = "block"; 
+}
+</script>
 
 <div class="w3-bar w3-black">
   <span class="w3-bar-item">Derpy.cf</span>
   <span class="w3-right">
-  <a href="#" class="w3-bar-item w3-button">Home</a>
-  <a href="#" class="w3-bar-item w3-button">Blog</a>
-  <a href="#" class="w3-bar-item w3-button">About</a>
+  <button class="w3-bar-item w3-button" onclick="openCity('Home')">Home</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Blog')">Blog</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('About')">About</button>
   </span>
 </div>
+
+<div id="Home" class="city">
+  <h2>Home!</h2>
+  <p>Welcome to Derpy.cf</p>
+</div>
+
+<div id="Blog" class="city" style="display:none">
+  <h2>Blog</h2>
+  <p>WIP</p> 
+</div>
+
+<div id="About" class="city" style="display:none">
+  <h2>About Page!</h2>
+  <p>WIP</p> 
+</div>
+
+
+
+
